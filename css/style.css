@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Cardo|Webdings');
+.header {
+    background-image: url(img/layer-34.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(43, 46, 74, 0.95);
+    min-height: 100vh;
+}
+.header__logo {    
+    height: 24px;
+    margin-left: 15px;
+    object-fit: contain;    
+}
+.header__top {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    box-shadow: 0px 0.5px 0 0 rgba(255, 255, 255, 0.15);
+    -moz-box-shadow: 0px 0.5px 0 0 rgba(255, 255, 255, 0.15);
+    margin-bottom: 150px;
+}
+.nav {
+    display: block;
+    text-align: right;
+}
+.nav__a {
+    display: inline-block;
+    margin-left: 30px;
+    text-transform: uppercase;
+    opacity: 0.75;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.75);  
+    transition: .5s;  
+}
+.nav__a:hover {
+    opacity: 1;
+    text-decoration: none;
+    color: #e84545;
+}
+.nav__a:first-child {
+    margin-left: 0;
+}
+.header__title {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 1.09;
+    text-align: center;
+    text-transform: uppercase;    
+    color: #ffffff;
+    margin-bottom: 40px;    
+    
+}
+
+.header__desc {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 75px;
+}
+.btn {
+    display: inline-block;
+    border-radius: 2px;
+    background-color: #e84545;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 50px;
+    text-transform: uppercase;
+    height: 45px;
+    margin-bottom:  20px;
+}
+.benefits {
+    background-color: white;
+    padding: 120px 0 50px;
+}
+.benefits-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 75px;
+}
+.benefits-item__img {
+    margin-bottom: 35px;
+}
+.benefits-item__title, .benefits-item__desc {
+    font-family: Raleway;
+    font-size: 15px;
+    text-align: center;
+}
+.benefits-item__title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #2d3033;
+    text-transform: uppercase;
+}
+.benefits-item__desc {
+    line-height: 1.5;
+    color: #6c7279;
+}
+.pic-block__container {
+    padding: 0;
+}
+.pic-block-container__itemHover {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;    
+}
+.pic-block-container__itemHover img {    
+    width: 100%;
+    height: 100%;    
+  }
+.pic-block-container__itemHover .pic-block-container-item__caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: rgba(232, 69, 69, 0.9);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    transition: .5s; 
+  }
+.pic-block-container__itemHover .pic-block-container-item__caption h4, p{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-align: center;    
+    margin-top: 90px;
+  }
+.pic-block-container__itemHover  .pic-block-container-item__caption p {
+    text-transform: capitalize;
+    font-weight: normal;
+    margin-top: 13px;
+    opacity: 0.75;
+  }
+.pic-block-container__itemHover:hover .pic-block-container-item__caption {
+    opacity: 1;     
+  }
+.contacts {
+     padding: 150px 0 100px;
+  }
+.contacts__personal-inf {
+      margin-bottom: 30px;
+      overflow: hidden;
+  }
+.contacts__photo {
+      width: 100%;
+      margin-bottom: 30px;
+  }
+.contacts__name,  .contacts__position,   .contacts__desc {
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+.contacts__name {
+    font-size: 22px;
+    color: #2d3033;
+    margin-bottom: 15px;
+  }
+.contacts__position {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #e84545;
+    margin-bottom: 29px;
+  }
+.contacts__desc {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+  }
+  .contacts__social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts-social-media__item {
+    margin: 0 5px;
+    background-color: #ffffff;
+    border: solid 1px #e8ecee;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.contacts-social-media__item a i {
+    color: #b9bbbd;
+}
+
+.slider__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slider-item__right, .slider-item__left {
+    padding: 0;
+}
+.slider-item__right {
+    background-color: #53354a;
+    padding: 110px 0 85px 85px;
+  }
+.slider-item__title, .slider-item__desc {
+    display: block;
+    text-align: left;
+    color: #ffffff;
+    max-width: 500px;
+  }
+.slider-item__title {
+    font-family: 'Cardo', serif;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-style: italic;
+    line-height: 1.17;      
+  }
+.slider-item__desc {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.62;    
+  }
+.slider-row {
+    margin: 0;
+  }
+.download {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fff;   
+}
+.download__title, .download__desc{
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #2d3033;
+  }
+.download__title {    
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.download__desc {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.62; 
+    margin-bottom: 40px;   
+}
+.download .btn {
+    padding: 0px 85px;
+}
+.footer {
+    background-color: #3a3e64;
+}
+.footer-top__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;    
+}
+.footer-top-social-media__item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 4px;    
+    border: solid 2px #ffffff;
+    border-radius: 2px; 
+}
+.footer-top__desc {
+    opacity: 0.5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 1.61;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer__top {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.footer__bottom {
+    background-color: #313454;
+    padding: 30px 0px;
+}
+.footer-bottom__copyright {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 1.61;
+    text-align: center;
+    color: #808080;    
+}
+.footer-bottom__copyright-simbol {
+    font-family: Webdings;
+    color: #e84545;
+}
+.footer-bottom__copyright-by {
+    color: #ffffff;
+}
+
+.footer-sm-color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: solid 1px #ffffff;
+}
+
+.footer-sm-color a i {
+    color: #ffffff;
+}
+
+
+
+
+@media screen and (max-width:1100px) {
+
+    .contacts--margin-bottom {
+        margin-bottom: 20px;
+    }
+
+    .header__top {        
+        padding-bottom: 15px;     
+        margin-bottom: 100px;
+    }
+}
+
+
+@media screen and (max-width:780px) {
+
+    .header__title {
+        font-size: 55px; 
+    }
+    .header__desc {
+        font-size: 16px;
+    }
+    .contacts {
+        padding: 80px 0 50px;
+    }
+
+
+
+    .footer-top__title {
+        margin-bottom: 8px;
+        margin-top: 25px; 
+    }
+
+    .footer__top {
+        line-height: 1;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:430px){
+
+    .header__logo {
+        height: 18px;
+    }
+
+
+
+    .header__title {
+        margin-bottom: 45px;
+        font-size: 25px;    
+    }
+
+    .header__desc {
+        margin-bottom: 75px;      
+        font-size: 12px;        
+    }
+
+    .btn {        
+        height: 38px;
+        margin-bottom: 10px;
+        padding: 0 35px;
+        font-size: 11px;       
+        line-height: 38px;
+    }
+
+    .benefits {        
+        padding: 35px 0 0px;
+    }
+
+    .benefits-item__title, .benefits-item__desc {
+        font-size: 12px;
+    }
+
+    .benefits-item__title {
+        margin-bottom: 10px;
+    }
+
+    .benefits-item__img {
+        margin-bottom: 20px;
+    }
+
+    .benefits-item {
+        margin-bottom: 45px;
+    }
+
+    .hidden-block {
+        display: none;
+    }
+
+    .img-fluid {
+        height: 35px;
+    }
+
+    .contacts {
+        padding: 40px 0 35px;
+    }
+
+    .contacts__personal-inf {
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contacts__social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .contacts__photo {
+        margin-bottom: 20px;
+        padding: 0 55px;
+    }
+
+    .contacts__name, .contacts__position, .contacts__desc {
+        text-align: center;
+    }
+
+    .contacts__name {
+        margin-bottom: 8px;
+    }
+
+    .contacts__position {
+        margin-bottom: 12px;
+        font-size: 10px;  
+    }
+
+    .contacts__desc {
+        font-size: 12px; 
+    }
+
+    .slider-item__right {
+        background-color: #53354a;
+        padding: 45px;
+    }
+
+    .slider-item__title {      
+        font-size: 13px;   
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .slider-item__desc {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .download {
+        padding-top: 25px;
+        padding-bottom: 25px;
+     
+    }
+
+    .download__title {
+        font-size: 18px;       
+        line-height: 1.5;     
+    }
+
+    .download__desc {
+        font-size: 13px;    
+        line-height: 1;
+        margin-bottom: 35px;
+    }
+
+    .download .btn {
+        padding: 0 35px;
+    }
+
+    .footer-top__title {
+        font-size: 12px;    
+    }
+
+    .footer-top__desc {
+        font-size: 12px;
+    }
+
+    .footer-bottom__copyright {
+        font-size: 12px;
+    }
+
+    .footer__bottom {
+        padding: 15px 0px;
+    }
+}
+
+
+@media screen and (max-width:380px) {
+    .contacts__photo {
+        height: 240px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .contacts__photo {
+        height: 175px;
+    }
+}
+
